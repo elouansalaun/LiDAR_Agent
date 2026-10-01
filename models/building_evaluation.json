@@ -1,0 +1,191 @@
+{
+  "summary": {
+    "test_blocks": 8,
+    "reference_buildings_ge_100m2": 36,
+    "matched_one_to_one": 36,
+    "height_abs_error_median_m": 0.04,
+    "height_abs_error_p90_m": 0.33,
+    "footprint_iou": 0.944,
+    "buildings_ge_20m_found": "9/9"
+  },
+  "blocks": [
+    {
+      "bbox": [
+        295600.0,
+        5039000.0,
+        295800.0,
+        5039200.0
+      ],
+      "predicted_buildings": 7,
+      "reference_buildings": 7,
+      "reference_buildings_ge_100m2": 7,
+      "matched_one_to_one": 7,
+      "height_errors_m": [
+        -0.31,
+        -0.07,
+        0.01,
+        0.05,
+        0.1,
+        0.01,
+        0.27
+      ],
+      "footprint_intersection_m2": 7034.357142856985,
+      "footprint_union_m2": 7229.642857142753,
+      "tall_reference": 1,
+      "tall_found": 1
+    },
+    {
+      "bbox": [
+        295800.0,
+        5039400.0,
+        296000.0,
+        5039600.0
+      ],
+      "predicted_buildings": 8,
+      "reference_buildings": 9,
+      "reference_buildings_ge_100m2": 6,
+      "matched_one_to_one": 6,
+      "height_errors_m": [
+        -0.01,
+        -0.06,
+        0.1,
+        -0.03,
+        0.04,
+        0.03
+      ],
+      "footprint_intersection_m2": 5307.410173158045,
+      "footprint_union_m2": 5573.589826840733,
+      "tall_reference": 4,
+      "tall_found": 4
+    },
+    {
+      "bbox": [
+        295600.0,
+        5040200.0,
+        295800.0,
+        5040400.0
+      ],
+      "predicted_buildings": 7,
+      "reference_buildings": 4,
+      "reference_buildings_ge_100m2": 3,
+      "matched_one_to_one": 3,
+      "height_errors_m": [
+        0.44,
+        0.08,
+        0.0
+      ],
+      "footprint_intersection_m2": 10832.140151514526,
+      "footprint_union_m2": 11417.859848484979,
+      "tall_reference": 2,
+      "tall_found": 2
+    },
+    {
+      "bbox": [
+        295400.0,
+        5040200.0,
+        295600.0,
+        5040400.0
+      ],
+      "predicted_buildings": 18,
+      "reference_buildings": 18,
+      "reference_buildings_ge_100m2": 15,
+      "matched_one_to_one": 15,
+      "height_errors_m": [
+        0.01,
+        -0.05,
+        -0.14,
+        0.01,
+        0.03,
+        0.36,
+        0.04,
+        0.03,
+        0.02,
+        0.02,
+        0.05,
+        0.14,
+        8.4,
+        0.0,
+        0.01
+      ],
+      "footprint_intersection_m2": 12075.622943722847,
+      "footprint_union_m2": 13045.377056280617,
+      "tall_reference": 2,
+      "tall_found": 2
+    },
+    {
+      "bbox": [
+        296200.0,
+        5039000.0,
+        296400.0,
+        5039200.0
+      ],
+      "predicted_buildings": 0,
+      "reference_buildings": 0,
+      "reference_buildings_ge_100m2": 0,
+      "matched_one_to_one": 0,
+      "height_errors_m": [],
+      "footprint_intersection_m2": 0.0,
+      "footprint_union_m2": 0.0,
+      "tall_reference": 0,
+      "tall_found": 0
+    },
+    {
+      "bbox": [
+        296200.0,
+        5039800.0,
+        296400.0,
+        5040000.0
+      ],
+      "predicted_buildings": 3,
+      "reference_buildings": 3,
+      "reference_buildings_ge_100m2": 3,
+      "matched_one_to_one": 3,
+      "height_errors_m": [
+        0.0,
+        -0.09,
+        -0.22
+      ],
+      "footprint_intersection_m2": 1151.6461038949783,
+      "footprint_union_m2": 1211.3538961031882,
+      "tall_reference": 0,
+      "tall_found": 0
+    },
+    {
+      "bbox": [
+        296000.0,
+        5040200.0,
+        296200.0,
+        5040400.0
+      ],
+      "predicted_buildings": 3,
+      "reference_buildings": 2,
+      "reference_buildings_ge_100m2": 2,
+      "matched_one_to_one": 2,
+      "height_errors_m": [
+        -0.01,
+        -0.4
+      ],
+      "footprint_intersection_m2": 218.5,
+      "footprint_union_m2": 324.5,
+      "tall_reference": 0,
+      "tall_found": 0
+    },
+    {
+      "bbox": [
+        296800.0,
+        5040200.0,
+        297000.0,
+        5040400.0
+      ],
+      "predicted_buildings": 0,
+      "reference_buildings": 0,
+      "reference_buildings_ge_100m2": 0,
+      "matched_one_to_one": 0,
+      "height_errors_m": [],
+      "footprint_intersection_m2": 0.0,
+      "footprint_union_m2": 0.0,
+      "tall_reference": 0,
+      "tall_found": 0
+    }
+  ]
+}

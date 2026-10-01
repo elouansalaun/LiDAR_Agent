@@ -1,0 +1,30 @@
+# LiDAR processing
+laspy[lazrs]>=2.7
+numpy>=2.0
+scipy>=1.14
+
+# GIS
+geopandas>=1.0
+shapely>=2.0
+rasterio>=1.4
+pyproj>=3.6
+
+# Machine learning
+scikit-learn>=1.5
+joblib>=1.4
+
+# Agent
+anthropic>=1.11
+langgraph>=1.0
+pydantic>=2.7
+python-dotenv>=1.0
+
+# Visualisation / UI
+folium>=0.18
+branca>=0.8
+plotly>=5.24
+matplotlib>=3.9
+streamlit>=1.50
+
+# Tests
+pytest>=8.0

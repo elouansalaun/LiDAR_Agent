@@ -1,0 +1,165 @@
+{
+  "baseline": {
+    "overall_accuracy": 0.9192,
+    "macro_f1": 0.8579,
+    "mean_iou": 0.771,
+    "per_class": {
+      "ground": {
+        "precision": 0.9524,
+        "recall": 0.9413,
+        "f1": 0.9468,
+        "iou": 0.8989,
+        "support": 267572
+      },
+      "vegetation": {
+        "precision": 0.9622,
+        "recall": 0.9585,
+        "f1": 0.9603,
+        "iou": 0.9237,
+        "support": 130461
+      },
+      "building": {
+        "precision": 0.8768,
+        "recall": 0.8839,
+        "f1": 0.8803,
+        "iou": 0.7863,
+        "support": 43603
+      },
+      "other": {
+        "precision": 0.6188,
+        "recall": 0.6714,
+        "f1": 0.6441,
+        "iou": 0.475,
+        "support": 38364
+      }
+    },
+    "confusion_matrix": [
+      [
+        251854,
+        12,
+        1,
+        15705
+      ],
+      [
+        0,
+        125051,
+        5407,
+        3
+      ],
+      [
+        0,
+        4905,
+        38541,
+        157
+      ],
+      [
+        12599,
+        0,
+        7,
+        25758
+      ]
+    ],
+    "features": [
+      "height_above_ground",
+      "intensity",
+      "return_number",
+      "number_of_returns",
+      "local_density"
+    ],
+    "train_time_s": 10.7,
+    "inference_us_per_point": 1.18,
+    "feature_importance": {
+      "height_above_ground": 0.6294,
+      "local_density": 0.1562,
+      "number_of_returns": 0.1233,
+      "intensity": 0.0743,
+      "return_number": 0.0169
+    }
+  },
+  "geometric": {
+    "overall_accuracy": 0.9291,
+    "macro_f1": 0.8736,
+    "mean_iou": 0.7957,
+    "per_class": {
+      "ground": {
+        "precision": 0.9526,
+        "recall": 0.9478,
+        "f1": 0.9502,
+        "iou": 0.9051,
+        "support": 267572
+      },
+      "vegetation": {
+        "precision": 0.97,
+        "recall": 0.9743,
+        "f1": 0.9722,
+        "iou": 0.9458,
+        "support": 130461
+      },
+      "building": {
+        "precision": 0.9216,
+        "recall": 0.9066,
+        "f1": 0.9141,
+        "iou": 0.8417,
+        "support": 43603
+      },
+      "other": {
+        "precision": 0.6458,
+        "recall": 0.6708,
+        "f1": 0.6581,
+        "iou": 0.4904,
+        "support": 38364
+      }
+    },
+    "confusion_matrix": [
+      [
+        253596,
+        12,
+        2,
+        13962
+      ],
+      [
+        0,
+        127108,
+        3352,
+        1
+      ],
+      [
+        1,
+        3916,
+        39531,
+        155
+      ],
+      [
+        12620,
+        0,
+        8,
+        25736
+      ]
+    ],
+    "features": [
+      "height_above_ground",
+      "intensity",
+      "return_number",
+      "number_of_returns",
+      "local_density",
+      "linearity",
+      "planarity",
+      "scattering",
+      "verticality"
+    ],
+    "train_time_s": 23.6,
+    "inference_us_per_point": 1.16,
+    "feature_importance": {
+      "height_above_ground": 0.5635,
+      "scattering": 0.1377,
+      "local_density": 0.0903,
+      "number_of_returns": 0.0716,
+      "verticality": 0.0493,
+      "intensity": 0.0341,
+      "planarity": 0.0283,
+      "return_number": 0.0131,
+      "linearity": 0.0122
+    }
+  },
+  "selected": "geometric"
+}
