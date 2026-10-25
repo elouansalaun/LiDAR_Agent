@@ -1,12 +1,4 @@
-"""Phase 7: web interface.
-
-    streamlit run streamlit_app.py
-
-Two modes:
-  * AI agent   - chat with the agent. The planner is Claude when ANTHROPIC_API_KEY
-                 is set, or the offline demo planner (rule-based, no key needed)
-  * Pipeline   - run the fixed workflow on a chosen area with sliders
-Both show the same results panel: statistics, map, table and 3D view.
+"""Web interface.
 """
 
 from __future__ import annotations

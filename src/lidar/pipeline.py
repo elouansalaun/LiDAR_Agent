@@ -1,10 +1,6 @@
 """Deliverable: the deterministic preprocessing pipeline.
 
     LiDAR tiles -> crop -> height normalisation -> feature extraction -> .laz
-
-Usage:
-    python -m src.lidar.pipeline --bbox 295500 5039500 296000 5040000
-    python -m src.lidar.pipeline --tile 23_2955039F08_DC
 """
 
 from __future__ import annotations

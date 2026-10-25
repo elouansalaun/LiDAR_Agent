@@ -8,7 +8,7 @@ Why a 2D grid instead of 3D clustering? Seen from above, a building is a
 connected patch of roof. Rasterising is fast (millions of points in a
 second), easy to reason about, and gives polygons for free. The trade-off:
 buildings that touch (e.g. Montreal row houses) are merged into one "building
-block". See docs/04_building_analysis.md.
+block".
 """
 
 from __future__ import annotations

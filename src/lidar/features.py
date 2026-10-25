@@ -8,12 +8,11 @@ Geometric features (added after the first experiments, see docs/03_classificatio
 
 The geometric features describe the *shape* of each point's neighbourhood,
 computed from the eigenvalues of the 3x3 covariance matrix of its k nearest
-neighbours (λ1 >= λ2 >= λ3):
-
-    linearity   = (λ1 - λ2) / λ1   -> high on wires, poles, roof edges
-    planarity   = (λ2 - λ3) / λ1   -> high on roofs, walls, roads
-    scattering  =  λ3 / λ1         -> high in tree crowns (volumetric)
-    verticality = 1 - |n_z|        -> 0 on flat roofs, 1 on walls
+neighbours :
+    linearity   -> high on wires, poles, roof edges
+    planarity   -> high on roofs, walls, roads
+    scattering  -> high in tree crowns (volumetric)
+    verticality -> 0 on flat roofs, 1 on walls
 
 These make "flat roof vs. tree crown" separable even when both are 15 m high,
 which height + intensity alone struggle with.

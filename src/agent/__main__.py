@@ -1,9 +1,4 @@
-"""Command-line agent (roadmap phase 5 deliverable).
-
-    python -m src.agent                                   # interactive session
-    python -m src.agent "Find buildings taller than 20 m"  # single question
-    python -m src.agent --offline                         # rule-based planner, no API key needed
-
+"""Command-line agent.
 Without API credentials the offline demo planner is used automatically.
 """
 

@@ -6,7 +6,6 @@ extract buildings twice with the same segmentation code:
     * from the vendor's ASPRS building class (the reference)
 and compare footprints and heights.
 
-    python -m src.buildings.evaluate
 """
 
 from __future__ import annotations

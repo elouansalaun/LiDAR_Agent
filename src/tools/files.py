@@ -4,11 +4,6 @@ Tools pass *file paths* to each other rather than in-memory objects: this
 keeps every tool independent (and callable from the command line, a notebook
 or the agent), and every intermediate result can be opened in QGIS/CloudCompare.
 
-Each step appends a suffix to the name, so the file name tells its history:
-    area_296000_5039000_296500_5039500.laz
-    area_296000_5039000_296500_5039500_hag.laz
-    area_296000_5039000_296500_5039500_hag_classified.laz
-    area_296000_5039000_296500_5039500_hag_classified_buildings.geojson
 """
 
 from __future__ import annotations

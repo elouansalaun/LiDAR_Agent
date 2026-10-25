@@ -2,7 +2,7 @@
 
 The rest of the project (building analysis, agent tools) only talks to this
 function, so the Random Forest can later be swapped for PointNet++ or any
-other model without touching the callers (roadmap, phase 8).
+other model without touching the callers.
 """
 
 from __future__ import annotations

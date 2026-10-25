@@ -1,7 +1,4 @@
 """Project-wide paths and constants.
-
-Everything that a reader might want to tweak (folders, class codes, default
-parameters) lives here so it is not scattered across the code base.
 """
 
 from pathlib import Path

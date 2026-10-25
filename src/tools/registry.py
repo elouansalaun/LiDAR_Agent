@@ -1,9 +1,5 @@
 """A tiny tool framework: turn a typed Python function into an LLM tool.
 
-    @tool
-    def normalize_height(point_cloud_path: Annotated[str, Field(description="...")]) -> dict:
-        '''Short description the LLM will read.'''
-
 The decorator:
   * builds a JSON schema from the type hints (via a pydantic model),
   * validates the arguments sent by the LLM before calling the function,

@@ -8,10 +8,6 @@ geometric plausibility with plain rules (no LLM involved):
     0 < building_height < 150    building_area > 0
     0 <= percentage <= 100       geometry is valid
 
-Two severities:
-    error   -> the result is not trustworthy; the agent gets the list of
-               problems, likely causes and suggested fixes, and must retry
-    warning -> plausible but unusual; passed on so the agent can mention it
 """
 
 from __future__ import annotations

@@ -1,8 +1,4 @@
 """A tiny gazetteer of places inside the 4 Montreal tiles.
-
-Used by the Streamlit app (area picker) and by the offline planner, which
-cannot look up place names the way an LLM can. Coordinates are approximate
-centres (lon, lat, WGS84).
 """
 
 from __future__ import annotations

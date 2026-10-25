@@ -7,8 +7,7 @@ There is no vegetation class, so vegetation labels are *derived*:
 unclassified points more than 2 m above the ground are called vegetation.
 In this residential/campus area that is overwhelmingly trees, but it also
 catches a few wires, poles and street lights. These are "weak" labels:
-good enough to train a baseline, and the limitation is documented in
-docs/03_classification.md.
+good enough to train a baseline.
 """
 
 import numpy as np

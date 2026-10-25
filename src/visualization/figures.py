@@ -1,9 +1,4 @@
 """Static figures for the documentation (PNG, matplotlib).
-
-    python -m src.visualization.figures
-
-Runs the workflow on the Saint Joseph's Oratory area (cached after the first
-run) and writes docs/images/oratory_classes.png and oratory_buildings.png.
 """
 
 from __future__ import annotations

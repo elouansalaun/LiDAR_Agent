@@ -2,8 +2,6 @@
 
 Useful to demo the project without an API key, to benchmark the pipeline,
 and as a reference for what the agent is expected to do.
-
-    python -m src.workflow --lon -73.6150 --lat 45.5040 --size 400 --min-height 20
 """
 
 from __future__ import annotations

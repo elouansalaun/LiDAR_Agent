@@ -23,7 +23,7 @@ The **LLM only plans and explains**. Every number in the answer comes from a too
 
 ---
 
-## 2. The data → [01_data](01_data.md)
+## 2. The data 
 
 | | |
 |---|---|
@@ -46,7 +46,7 @@ flowchart LR
     F --> G["🗺️ Map<br/>Folium HTML"]
 ```
 
-### Height above ground → [02_lidar_pipeline](02_lidar_pipeline.md)
+### Height above ground 
 
 Raw Z is altitude, and the ground here climbs from ≈105 m to 200 m+. So "taller than 20 m" only makes sense after subtracting a terrain model:
 
@@ -59,7 +59,7 @@ Raw Z is altitude, and the ground here climbs from ≈105 m to 200 m+. So "talle
    │  ─┴──┴─╱                          │  ─┴──┴─┴──┴──  ground = 0
 ```
 
-### Classification → [03_classification](03_classification.md)
+### Classification 
 
 A Random Forest on 9 features per point. The 4 geometric features (linearity, planarity, scattering, verticality) describe whether a point's neighbourhood is a **plane** (roof), a **volume** (tree crown) or a **wall**.
 
@@ -91,7 +91,7 @@ Compared with the same segmentation run on the vendor's professional classificat
 
 ---
 
-## 4. The agent → [05_agent](05_agent.md)
+## 4. The agent 
 
 A LangGraph state machine with three nodes. Only `agent` involves an LLM.
 
@@ -139,7 +139,7 @@ you> And above 50 m?
 
 ---
 
-## 5. The validator → [06_validation](06_validation.md)
+## 5. The validator 
 
 An LLM cannot tell that a 648 m "building" is absurd. The validator can.
 
@@ -155,7 +155,7 @@ Examples of rules: `0 < building height < 150 m` for **every** building in the f
 
 ---
 
-## 6. The interface → [07_visualization](07_visualization.md)
+## 6. The interface
 
 | Mode | What it does |
 |---|---|

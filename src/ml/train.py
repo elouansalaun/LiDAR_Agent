@@ -3,12 +3,6 @@
 Two experiments are run on the same spatial train/test split:
     baseline  - the 5 features listed in the roadmap
     geometric - baseline + 4 neighbourhood-shape features
-
-The better model is saved to models/lidar_classifier.joblib together with its
-feature list, and the metrics of both runs to models/lidar_classifier_metrics.json.
-
-Usage:
-    python -m src.ml.train
 """
 
 from __future__ import annotations

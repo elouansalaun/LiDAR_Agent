@@ -3,7 +3,7 @@
 We cannot feed 130 million points to a Random Forest, and we do not need to.
 Each tile is cut into a grid of non-overlapping 200 m x 200 m blocks. A few
 blocks per tile are picked at random for training and a few *other* blocks
-for testing. For each block we run the phase-1 pipeline (features need the
+for testing. For each block we run the pipeline (features need the
 full-density neighbourhood), then keep a random sample of its points.
 
 Why blocks? The split has to be *spatial*. Splitting random points would
